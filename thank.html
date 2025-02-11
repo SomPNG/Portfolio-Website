@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You !!</title>
+    <link rel="shortcut icon" href="./Images/handshake.png" type="image/x-icon">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(231,231,231);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .thank-message{
+            font-size: 3rem;
+            text-transform: capitalize;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:rgb(13, 118, 66);
+            animation: thankm 1s ease-in 0s 1;
+        }
+        @keyframes thankm {
+            0%{
+                transform: scale(0);
+            }
+            100%{
+                transform: scale(1);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="thank-message">Your message has been sent !! Thank you. Will reach out to you soon.</div>
+    </div>
+</body>
+</html>
